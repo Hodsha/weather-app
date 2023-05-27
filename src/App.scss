@@ -1,0 +1,137 @@
+body{
+  background-color: black;
+}
+
+
+.box {
+  height: 450px;
+  width: 350px;
+  margin-left: 40%;
+  margin-top: 300px;
+  position: fixed;
+  border-radius: 10px;
+  z-index: 0;
+  // background-color: #343d4b;
+  border-radius: 25px;
+  background-image: url("https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+}
+
+.overlay {
+  height: 450px;
+  width: 350px;
+  // margin-top: -3px;
+  // margin-top: -100px;
+  border-radius: 25px;
+  z-index: 1;
+  opacity: 0.8;
+  // background-color: rgb(81, 114, 128);
+  background-color: rgb(62, 74, 75);
+  position: absolute;
+}
+
+.currentDay {
+  margin-left: 30px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.date {
+  font-size: 20px;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+
+.input_locaation {
+  position: fixed;
+  display: inline;
+  margin-top: 200px;
+  margin-left: 70px;
+  height: 30px;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.location {
+  float: left;
+  margin-left: 20px;
+}
+
+.city {
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.information {
+  position: fixed;
+}
+
+.icons {
+  margin-top: 10px;
+  position: fixed;
+  display: inline-block;
+  margin-left: -20px;
+}
+
+.titel_information {
+  // padding-top: 40px;
+  margin-top: 70px;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: -20px;
+}
+.temperatur {
+  padding-top: 70px;
+  font-size: 30px;
+}
+
+.weather_info {
+  margin-left: 30px;
+  padding-top: -100px;
+  font-size: 30px;
+  display: inline-block;
+  position: fixed;
+}
+
+.weather_description {
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.error{
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+  position: fixed;
+}
+
+
+
+
+//Weather Icon design
+
+.sunny{
+  color: yellow;
+}
+
+.cloudy{
+  color: rgb(238, 223, 223);
+}
+
+.rain{
+  color: rgb(5, 5, 156);
+}
+
+.snow{
+  color: white;
+}
+
+.storm{
+  color: rgb(6, 6, 90);
+}
+
+.lightCloud{
+  color: aliceblue;
+}
